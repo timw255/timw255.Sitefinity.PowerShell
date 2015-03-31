@@ -10,7 +10,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Web.Script.Serialization;
 using timw255.Sitefinity.RestClient;
-using timw255.Sitefinity.RestClient.SitefinityClient.ServiceWrappers.Configuration;
+using timw255.Sitefinity.RestClient.ServiceWrappers.Configuration;
 
 namespace timw255.Sitefinity.PowerShell
 {
