@@ -10,6 +10,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Web.Script.Serialization;
 using timw255.Sitefinity.RestClient;
+using timw255.Sitefinity.RestClient.Model;
 using timw255.Sitefinity.RestClient.ServiceWrappers.Configuration;
 
 namespace timw255.Sitefinity.PowerShell
@@ -42,7 +43,7 @@ namespace timw255.Sitefinity.PowerShell
 
                 ConfigSectionItemsServiceWrapper service = new ConfigSectionItemsServiceWrapper(c);
 
-                IEnumerable<Telerik.Sitefinity.Configuration.Web.ConfigSectionItems.UISectionItem> sectionItems = service.GetConfigSetionItems(NodeName, "", "", "", "Form", "").Items;
+                IEnumerable<UISectionItem> sectionItems = service.GetConfigSetionItems(NodeName, "", "", "", "Form", "").Items;
 
                 WriteObject(sectionItems);
             }
@@ -77,7 +78,7 @@ namespace timw255.Sitefinity.PowerShell
 
                 ConfigSectionItemsServiceWrapper service = new ConfigSectionItemsServiceWrapper(c);
 
-                IEnumerable<Telerik.Sitefinity.Configuration.Web.ConfigSectionItems.UISectionItem> sectionItems = service.GetConfigSetionItems(NodeName, "", "", "", "Form", "").Items;
+                IEnumerable<UISectionItem> sectionItems = service.GetConfigSetionItems(NodeName, "", "", "", "Form", "").Items;
 
                 WriteObject(sectionItems);
             }
