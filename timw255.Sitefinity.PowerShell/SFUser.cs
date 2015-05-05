@@ -11,9 +11,8 @@ using System.Runtime.Serialization.Json;
 using System.Text;
 using System.Threading.Tasks;
 using System.Web.Script.Serialization;
-using Telerik.Sitefinity.Security.Model;
-using Telerik.Sitefinity.Security.Web.Services;
 using timw255.Sitefinity.RestClient;
+using timw255.Sitefinity.RestClient.Model;
 using timw255.Sitefinity.RestClient.ServiceWrappers.Security;
 
 namespace timw255.Sitefinity.PowerShell
